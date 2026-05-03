@@ -1,43 +1,74 @@
-name: Generate Snake
+<h1 align="center">Hi, I'm Ashu</h1>
+<h3 align="center">Aspiring Developer | Java Learner | Web Development Enthusiast</h3>
 
-on:
-  # Run automatically every 24 hours
-  schedule:
-    - cron: "0 0 * * *"
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+Profile;Learning+Java+and+Web+Development;Building+projects+step+by+step" alt="Typing SVG" />
+</p>
 
-  # Allows you to manually run the job at any time from the Actions tab
-  workflow_dispatch:
+---
 
-  # Run on every push to the main branch
-  push:
-    branches:
-    - main
+## About Me
 
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+- Currently learning **Java, HTML, CSS, and GitHub**
+- Building small coding and web development projects
+- Interested in improving problem solving and frontend design
+- Goal: become a strong full-stack developer
 
-    steps:
-      # Generates a snake game from a github user contributions graph, outputs an svg animation
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/snake.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+---
 
-      # Push the content of the build_dir (dist) to the output branch
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+## Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,html,css,js,git,github,vscode" alt="Tech Stack" />
+</p>
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Ashusoni02&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashusoni02&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+---
+
+## Streak Count
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ashusoni02/Ashusoni02/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+---
+
+## Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ashusoni02&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
+</p>
+
+---
+
+## Contribution Game
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ashusoni02/Ashusoni02/output/snake.svg" alt="Snake Animation" />
+</p>
+
+---
+
+## Connect With Me
+
+<p align="center">
+  <a href="https://github.com/Ashusoni02">
+    <img src="https://img.shields.io/badge/GitHub-Ashusoni02-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ashusoni02&label=Profile%20Views&color=00d9ff&style=for-the-badge" alt="Profile Views" />
+</p>
+
+<h3 align="center">Thanks for visiting my profile!</h3>
