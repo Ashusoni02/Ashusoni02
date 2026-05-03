@@ -49,13 +49,6 @@
 
 ---
 
-## Contribution Game
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ashusoni02/Ashusoni02/output/snake.svg" alt="Snake Animation" />
-</p>
-
----
 
 ## Connect With Me
 
