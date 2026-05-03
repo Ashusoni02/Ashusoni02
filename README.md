@@ -36,7 +36,7 @@
 ## Streak Count
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Ashusoni02&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/Ashusoni02/Ashusoni02/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ---
